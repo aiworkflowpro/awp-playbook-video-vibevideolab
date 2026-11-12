@@ -1,0 +1,240 @@
+{
+  "_doc": "The fixed slots every world fills. kind: hex = #RRGGBB, enum:a|b|c = one of the listed words, rgb = \"r,g,b\" for rgba(), rgba = a CSS rgba() colour, num = a number, pt = [x%, y%], font = a CSS font-family stack. The optional 4th column says how a world without the slot fills it (another slot's value or a number).",
+  "schema_version": 3,
+  "slots": [
+    [
+      "ground.top",
+      "hex",
+      "Ground: top of the frame"
+    ],
+    [
+      "ground.mid",
+      "hex",
+      "Ground: middle (at 55%)"
+    ],
+    [
+      "ground.bottom",
+      "hex",
+      "Ground: bottom of the frame (the floor falls into shadow)"
+    ],
+    [
+      "mat.surface",
+      "hex",
+      "Mat: the surface things sit on"
+    ],
+    [
+      "mat.deep",
+      "hex",
+      "Mat, one step deeper: grooves and empty spots"
+    ],
+    [
+      "card.stock",
+      "hex",
+      "Card face"
+    ],
+    [
+      "card.edge",
+      "hex",
+      "Card edge (the thickness line)"
+    ],
+    [
+      "card.rimRgb",
+      "rgb",
+      "Shade of the card's lit and back-lit rims"
+    ],
+    [
+      "card.sideRgb",
+      "rgb",
+      "Card side (the stock's thickness)"
+    ],
+    [
+      "card.alt",
+      "hex",
+      "Second card face: tabs, label strips, trays, table headers",
+      "card.edge"
+    ],
+    [
+      "card.altEdge",
+      "hex",
+      "Edge of the second card face",
+      "line"
+    ],
+    [
+      "text.t1",
+      "hex",
+      "Text 1: titles and body"
+    ],
+    [
+      "text.t2",
+      "hex",
+      "Text 2: secondary"
+    ],
+    [
+      "text.t3",
+      "hex",
+      "Text 3: labels, the weakest"
+    ],
+    [
+      "accent.color",
+      "hex",
+      "Accent colour (one spot per frame)"
+    ],
+    [
+      "accent.rgb",
+      "rgb",
+      "Accent colour as r,g,b (cones, glows, soft fills)"
+    ],
+    [
+      "accent.deep",
+      "hex",
+      "Accent colour for text on a light card"
+    ],
+    [
+      "accent.soft",
+      "rgba",
+      "Soft accent fill"
+    ],
+    [
+      "ok",
+      "hex",
+      "Pass"
+    ],
+    [
+      "red",
+      "hex",
+      "Stop"
+    ],
+    [
+      "line",
+      "hex",
+      "Lines: hairlines, dividers, connectors"
+    ],
+    [
+      "shadow.rgb",
+      "rgb",
+      "Shadow colour"
+    ],
+    [
+      "shadow.dimRgb",
+      "rgb",
+      "Dimming colour: spotlights and dark fields that push the rest down"
+    ],
+    [
+      "ink.card",
+      "hex",
+      "Console / dark card"
+    ],
+    [
+      "ink.edge",
+      "hex",
+      "Dark card edge"
+    ],
+    [
+      "ink.text",
+      "hex",
+      "Text 1 on a dark card"
+    ],
+    [
+      "ink.text2",
+      "hex",
+      "Text 2 on a dark card"
+    ],
+    [
+      "light.key",
+      "rgba",
+      "Key light spot (top left)"
+    ],
+    [
+      "light.keyAt",
+      "pt",
+      "Key light spot centre"
+    ],
+    [
+      "light.fill",
+      "rgba",
+      "Fill light spot (may be fully transparent)"
+    ],
+    [
+      "light.fillAt",
+      "pt",
+      "Fill light spot centre"
+    ],
+    [
+      "light.vignetteRgb",
+      "rgb",
+      "Vignette colour"
+    ],
+    [
+      "light.vignette",
+      "num",
+      "Vignette strength 0–0.3"
+    ],
+    [
+      "texture.fiber",
+      "num",
+      "Paper fibre opacity on the ground (0 = none)"
+    ],
+    [
+      "texture.grain",
+      "num",
+      "Film grain strength (0.03 = 3%)"
+    ],
+    [
+      "texture.dot",
+      "rgba",
+      "Dot grid colour (fully transparent = no grid)"
+    ],
+    [
+      "type.sans",
+      "font",
+      "Sans-serif font stack (Latin and CJK)"
+    ],
+    [
+      "type.mono",
+      "font",
+      "Monospace font stack"
+    ],
+    [
+      "grade.brightness",
+      "num",
+      "Footage grade: brightness multiplier (1 = as is, 0.7 = 30% darker), applied to live footage and media beds",
+      "1"
+    ],
+    [
+      "grade.saturation",
+      "num",
+      "Footage grade: saturation multiplier (1 = as is)",
+      "1"
+    ],
+    [
+      "grade.blur",
+      "num",
+      "Footage grade: blur radius on a 1080-high canvas (px, 0 = sharp)",
+      "0"
+    ],
+    [
+      "grade.vignette",
+      "num",
+      "Footage grade: vignette strength 0–1",
+      "light.vignette"
+    ],
+    [
+      "title.material",
+      "enum:flat|extruded|metal",
+      "Title material tendency: flat / extruded 3D / brushed metal",
+      "flat"
+    ],
+    [
+      "stroke.width",
+      "num",
+      "Stroke on type and shapes on a 1080-high canvas (px, 0 = none)",
+      "0"
+    ],
+    [
+      "shadow.strength",
+      "num",
+      "Shadow strength 0–1 (0 = none, 1 = the world's heaviest shadow)",
+      "0.5"
+    ]
+  ]
+}

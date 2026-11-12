@@ -1,0 +1,608 @@
+{
+  "schema": 2,
+  "pack": "topo-glass-explainer",
+  "free_chapter": true,
+  "slots": [
+    {
+      "id": "audio.narration",
+      "kind": "audio",
+      "chapter": null,
+      "scenes": null,
+      "size": null,
+      "aspect": null,
+      "duration": null,
+      "required": true,
+      "sample": "sample/audio/narration.mp3",
+      "license": {
+        "type": "own",
+        "source": "Vibe Video Lab sample narration, voice \"VVL Guide\" (our ElevenLabs Voice Design voice, paid plan with commercial use), paced to 0.93 with natural pauses",
+        "generator": "ElevenLabs Eleven v4 web app; ffmpeg",
+        "date": "2026-11-11"
+      },
+      "hint": "your narration; align.mjs re-times the film to it"
+    },
+    {
+      "id": "audio.bgm",
+      "kind": "audio",
+      "chapter": null,
+      "scenes": null,
+      "size": null,
+      "aspect": null,
+      "duration": null,
+      "required": false,
+      "sample": "sample/audio/bgm.mp3",
+      "license": {
+        "type": "own",
+        "source": "Vibe Video Lab ambient bed: synthesised sine pads (no third-party material), trimmed and faded",
+        "generator": "numpy synthesis (make_bed.py), ffmpeg",
+        "date": "2026-11-11"
+      },
+      "hint": "a music bed under the narration"
+    },
+    {
+      "id": "presenter.take",
+      "kind": "presenter",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": 48.62,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "you on camera for the whole narration, framed like the sample"
+    },
+    {
+      "id": "presenter.person",
+      "kind": "presenter",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": 48.62,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "a cut-out of the take (VP9 WebM with alpha), same length"
+    },
+    {
+      "id": "presenter.plate",
+      "kind": "presenter",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "the empty room behind you, same framing as the take"
+    },
+    {
+      "id": "footage.clip09",
+      "kind": "footage",
+      "chapter": "c01",
+      "scenes": [
+        "S9"
+      ],
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": 0.86,
+      "required": false,
+      "sample": "sample/footage/clip09.mp4",
+      "license": {
+        "type": "own",
+        "source": "Vibe Video Lab sample clip: generated still (stills/hook2.png) with a slow ffmpeg zoompan",
+        "generator": "Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan",
+        "date": "2026-11-11",
+        "note": "A laptop on a desk at night with a blurred map on the screen, only the glow lighting the room. Cinematic photograph, cool pine-green night tones with warm amber light, shallow depth of field, no faces in focus, no text, no logos, no real people, 16:9, high detail."
+      },
+      "hint": "A laptop on a desk at night with a blurred map on screen."
+    },
+    {
+      "id": "footage.clip10",
+      "kind": "footage",
+      "chapter": "c01",
+      "scenes": [
+        "S10"
+      ],
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": 0.86,
+      "required": false,
+      "sample": "sample/footage/clip10.mp4",
+      "license": {
+        "type": "own",
+        "source": "Vibe Video Lab sample clip: generated still (stills/hook3.png) with a slow ffmpeg zoompan",
+        "generator": "Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan",
+        "date": "2026-11-11",
+        "note": "A paper calendar on a desk with a hand circling a date with a pencil. Cinematic photograph, cool pine-green night tones with warm amber light, shallow depth of field, no faces in focus, no text, no logos, no real people, 16:9, high detail."
+      },
+      "hint": "A paper calendar with a hand circling a date (title BOOK IT mid-frame)."
+    },
+    {
+      "id": "footage.clip11",
+      "kind": "footage",
+      "chapter": "c01",
+      "scenes": [
+        "S11"
+      ],
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": 0.54,
+      "required": false,
+      "sample": "sample/footage/clip11.mp4",
+      "license": {
+        "type": "own",
+        "source": "Vibe Video Lab sample clip: generated still (stills/hook4.png) with a slow ffmpeg zoompan",
+        "generator": "Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan",
+        "date": "2026-11-11",
+        "note": "Two printed quotes side by side on a desk under a warm desk lamp. Cinematic photograph, cool pine-green night tones with warm amber light, shallow depth of field, no faces in focus, no text, no logos, no real people, 16:9, high detail."
+      },
+      "hint": "Two printed quotes side by side under a desk lamp (title COMPARE IT mid-frame)."
+    },
+    {
+      "id": "footage.clip12",
+      "kind": "footage",
+      "chapter": "c01",
+      "scenes": [
+        "S12"
+      ],
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": 0.76,
+      "required": false,
+      "sample": "sample/footage/clip12.mp4",
+      "license": {
+        "type": "own",
+        "source": "Vibe Video Lab sample clip: generated still (stills/hook1.png) with a slow ffmpeg zoompan",
+        "generator": "Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan",
+        "date": "2026-11-11",
+        "note": "Hands placing a printed itinerary into a folder on a wooden desk, warm desk lamp. Cinematic photograph, cool pine-green night tones with warm amber light, shallow depth of field, no faces in focus, no text, no logos, no real people, 16:9, high detail."
+      },
+      "hint": "Hands placing a printed itinerary into a folder on a wooden desk (title DRAFT IT mid-frame)."
+    },
+    {
+      "id": "footage.clip13",
+      "kind": "footage",
+      "chapter": "c01",
+      "scenes": [
+        "S13"
+      ],
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": 1.18,
+      "required": false,
+      "sample": "sample/footage/clip13.mp4",
+      "license": {
+        "type": "own",
+        "source": "Vibe Video Lab sample clip: generated still (stills/hook5.png) with a slow ffmpeg zoompan",
+        "generator": "Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan",
+        "date": "2026-11-11",
+        "note": "A hand sealing an envelope on a wooden desk. Cinematic photograph, cool pine-green night tones with warm amber light, shallow depth of field, no faces in focus, no text, no logos, no real people, 16:9, high detail."
+      },
+      "hint": "A hand sealing an envelope (title SEND IT mid-frame)."
+    },
+    {
+      "id": "footage.clip14",
+      "kind": "footage",
+      "chapter": "c01",
+      "scenes": [
+        "S14"
+      ],
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": 0.65,
+      "required": false,
+      "sample": "sample/footage/clip14.mp4",
+      "license": {
+        "type": "own",
+        "source": "Vibe Video Lab sample clip: generated still (stills/hook6.png) with a slow ffmpeg zoompan",
+        "generator": "Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan",
+        "date": "2026-11-11",
+        "note": "A phone lying face down next to a coffee cup on a table at dawn. Cinematic photograph, cool pine-green night tones with warm amber light, shallow depth of field, no faces in focus, no text, no logos, no real people, 16:9, high detail."
+      },
+      "hint": "A phone face down next to a coffee cup at dawn."
+    },
+    {
+      "id": "footage.clip15",
+      "kind": "footage",
+      "chapter": "c01",
+      "scenes": [
+        "S15"
+      ],
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": 0.62,
+      "required": false,
+      "sample": "sample/footage/clip15.mp4",
+      "license": {
+        "type": "own",
+        "source": "Vibe Video Lab sample clip: generated still (stills/hook7.png) with a slow ffmpeg zoompan",
+        "generator": "Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan",
+        "date": "2026-11-11",
+        "note": "A backpack standing by a door at first light. Cinematic photograph, cool pine-green night tones with warm amber light, shallow depth of field, no faces in focus, no text, no logos, no real people, 16:9, high detail."
+      },
+      "hint": "A laptop on a desk at dawn, lid half open, trail map printout beside it (second framing of the desk set)."
+    },
+    {
+      "id": "footage.clip16",
+      "kind": "footage",
+      "chapter": "c01",
+      "scenes": [
+        "S16"
+      ],
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": 0.67,
+      "required": false,
+      "sample": "sample/footage/clip16.mp4",
+      "license": {
+        "type": "own",
+        "source": "Vibe Video Lab sample clip: generated still (stills/hook8.png) with a slow ffmpeg zoompan",
+        "generator": "Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan",
+        "date": "2026-11-11",
+        "note": "A trail map spread on a wooden table with a brass compass and a pencil. Cinematic photograph, cool pine-green night tones with warm amber light, shallow depth of field, no faces in focus, no text, no logos, no real people, 16:9, high detail."
+      },
+      "hint": "A trail map and a pencil checklist on a table, overhead (second framing of the map set)."
+    },
+    {
+      "id": "footage.clip38",
+      "kind": "footage",
+      "chapter": "c01",
+      "scenes": [
+        "S38",
+        "S41"
+      ],
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": 1.36,
+      "required": false,
+      "sample": "sample/footage/clip38.mp4",
+      "license": {
+        "type": "own",
+        "source": "Vibe Video Lab sample clip: generated still (stills/hook2.png) with a slow ffmpeg zoompan",
+        "generator": "Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan",
+        "date": "2026-11-11",
+        "note": "A laptop on a desk at night with a blurred map on the screen, only the glow lighting the room. Cinematic photograph, cool pine-green night tones with warm amber light, shallow depth of field, no faces in focus, no text, no logos, no real people, 16:9, high detail."
+      },
+      "hint": "A laptop on a desk at night with a blurred trail map on screen (covers S38-S41; slow push)."
+    },
+    {
+      "id": "footage.clip42",
+      "kind": "footage",
+      "chapter": "c01",
+      "scenes": [
+        "S42"
+      ],
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": 3.51,
+      "required": false,
+      "sample": "sample/footage/clip42.mp4",
+      "license": {
+        "type": "own",
+        "source": "Vibe Video Lab sample clip: generated still (stills/hook8.png) with a slow ffmpeg zoompan",
+        "generator": "Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan",
+        "date": "2026-11-11",
+        "note": "A trail map spread on a wooden table with a brass compass and a pencil. Cinematic photograph, cool pine-green night tones with warm amber light, shallow depth of field, no faces in focus, no text, no logos, no real people, 16:9, high detail."
+      },
+      "hint": "A trail map spread on a table with a compass (title \"many steps\" sits mid-frame; keep the centre calm)."
+    },
+    {
+      "id": "footage.clip168",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "A worn hiking logbook open on a rock with pencil notes, close-up (covers S168-S169)."
+    },
+    {
+      "id": "footage.clip170",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "A hand writing in a small notebook by headlamp light."
+    },
+    {
+      "id": "footage.clip173",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "Rain on a tent wall."
+    },
+    {
+      "id": "footage.clip174",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "A cairn half hidden in fog."
+    },
+    {
+      "id": "footage.clip180",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "A coiled climbing rope on granite (title Read mid-frame)."
+    },
+    {
+      "id": "footage.clip181",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "A carabiner clipped to a bolt, macro."
+    },
+    {
+      "id": "footage.clip182",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "Two hands tying a figure-eight knot (titles Draft, Send mid-frame)."
+    },
+    {
+      "id": "footage.clip183",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "A rope running up a steep rock face into mist (title Pay mid-frame)."
+    },
+    {
+      "id": "footage.clip185",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "Clouds rolling over a ridge."
+    },
+    {
+      "id": "footage.clip186",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "Fog swallowing a trail."
+    },
+    {
+      "id": "footage.clip196",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "Index cards sorted into two piles on a desk, overhead view."
+    },
+    {
+      "id": "footage.clip227",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "A trail sign leaning in wind, no readable text (covers S227-S229; caption at the bottom)."
+    },
+    {
+      "id": "footage.clip315",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "Sunrise over a summit ridge."
+    },
+    {
+      "id": "footage.clip316",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "A lone cairn on a saddle at dawn."
+    },
+    {
+      "id": "footage.clip317",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "Boots on a rocky trail."
+    },
+    {
+      "id": "footage.clip321",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "A mountain hut with warm windows at dusk."
+    },
+    {
+      "id": "footage.clip322",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "A valley path seen from above."
+    },
+    {
+      "id": "footage.clip326",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "An old style black and white photograph of a mountain camp, generated, no real people (covers S326-S327)."
+    },
+    {
+      "id": "footage.clip328",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "A black and white glacier panorama."
+    },
+    {
+      "id": "footage.clip330",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "First light on a lake below peaks."
+    },
+    {
+      "id": "footage.clip333",
+      "kind": "footage",
+      "chapter": null,
+      "scenes": null,
+      "size": "1920x1080",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": null,
+      "license": null,
+      "hint": "A slow pan across a sea of clouds below a summit."
+    },
+    {
+      "id": "still.valley",
+      "kind": "still",
+      "chapter": "c02",
+      "scenes": [
+        "S22"
+      ],
+      "size": "2560x1440",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": "sample/still/valley.jpg",
+      "license": {
+        "type": "own",
+        "source": "Vibe Video Lab sample still (stills/valley.png, resized)",
+        "generator": "Codex ImageGen, Real-ESRGAN upscale",
+        "date": "2026-11-11",
+        "note": "A wide alpine valley at blue hour seen from a high trail, mist in the valley floor, distant ridgelines, soft amber light on one slope. Cinematic photograph, cool pine-green night tones with warm amber light, shallow depth of field, no faces in focus, no text, no logos, no real people, 16:9, high det"
+      },
+      "hint": "Valley backdrop: a wide alpine valley at blue hour seen from a high trail, mist on the valley floor, distant ridgelines, soft amber light on one slope; no people, no text."
+    },
+    {
+      "id": "still.cairn",
+      "kind": "still",
+      "chapter": "c02",
+      "scenes": [
+        "S22"
+      ],
+      "size": "1170x1600",
+      "aspect": "16:9",
+      "duration": null,
+      "required": false,
+      "sample": "sample/still/cairn.png",
+      "license": {
+        "type": "own",
+        "source": "Vibe Video Lab sample still (stills/cairn.png, keyed and trimmed)",
+        "generator": "Codex ImageGen, Real-ESRGAN upscale",
+        "date": "2026-11-11",
+        "note": "A single tall stone cairn of flat grey stones stacked carefully, photographed straight on against a plain light grey background, studio lighting, sharp edges for cut-out, no shadow on the background. Cinematic photograph, cool pine-green night tones with warm amber light, shallow depth of field, no "
+      },
+      "hint": "Cairn cut-out: one tall cairn of flat grey stones, straight on, keyed to a transparent PNG (stones fill the height, base at the bottom edge)."
+    }
+  ]
+}

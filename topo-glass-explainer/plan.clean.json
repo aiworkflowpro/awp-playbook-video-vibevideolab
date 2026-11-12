@@ -1,0 +1,2258 @@
+{
+  "schema_version": 1,
+  "id": "topo-glass-explainer",
+  "variant": "clean",
+  "clock": {
+    "fps": 23.976,
+    "width": 1920,
+    "height": 1080,
+    "duration": 48.62
+  },
+  "scenes": [
+    {
+      "id": "S38",
+      "a": 0,
+      "b": 0.3,
+      "component": "S38",
+      "chapter": "c01",
+      "uses": {
+        "footage": [
+          "clip38"
+        ]
+      },
+      "window": [
+        1596,
+        1609
+      ]
+    },
+    {
+      "id": "S41",
+      "a": 0.3,
+      "b": 1.66,
+      "component": "S41",
+      "chapter": "c01",
+      "uses": {
+        "footage": [
+          "clip38"
+        ]
+      },
+      "window": [
+        1653,
+        1690
+      ]
+    },
+    {
+      "id": "S42",
+      "a": 1.66,
+      "b": 5.17,
+      "component": "S42",
+      "chapter": "c01",
+      "uses": {
+        "footage": [
+          "clip42"
+        ]
+      },
+      "window": [
+        1701,
+        1806
+      ]
+    },
+    {
+      "id": "S1",
+      "a": 5.17,
+      "b": 10,
+      "component": "S1",
+      "chapter": "c01",
+      "uses": {},
+      "hold": 1.678
+    },
+    {
+      "id": "S19",
+      "a": 10,
+      "b": 17.77,
+      "component": "S19",
+      "chapter": "c01",
+      "uses": {}
+    },
+    {
+      "id": "S9",
+      "a": 17.77,
+      "b": 18.63,
+      "component": "S9",
+      "chapter": "c01",
+      "uses": {
+        "footage": [
+          "clip09"
+        ]
+      },
+      "window": [
+        334,
+        360
+      ]
+    },
+    {
+      "id": "S10",
+      "a": 18.63,
+      "b": 19.49,
+      "component": "S10",
+      "chapter": "c01",
+      "uses": {
+        "footage": [
+          "clip10"
+        ]
+      },
+      "window": [
+        366,
+        392
+      ]
+    },
+    {
+      "id": "S11",
+      "a": 19.49,
+      "b": 20.03,
+      "component": "S11",
+      "chapter": "c01",
+      "uses": {
+        "footage": [
+          "clip11"
+        ]
+      },
+      "window": [
+        398,
+        414
+      ]
+    },
+    {
+      "id": "S12",
+      "a": 20.03,
+      "b": 20.79,
+      "component": "S12",
+      "chapter": "c01",
+      "uses": {
+        "footage": [
+          "clip12"
+        ]
+      },
+      "window": [
+        418,
+        441
+      ]
+    },
+    {
+      "id": "S13",
+      "a": 20.79,
+      "b": 21.97,
+      "component": "S13",
+      "chapter": "c01",
+      "uses": {
+        "footage": [
+          "clip13"
+        ]
+      },
+      "window": [
+        446,
+        482
+      ]
+    },
+    {
+      "id": "S14",
+      "a": 21.97,
+      "b": 22.62,
+      "component": "S14",
+      "chapter": "c01",
+      "uses": {
+        "footage": [
+          "clip14"
+        ]
+      },
+      "window": [
+        490,
+        509
+      ]
+    },
+    {
+      "id": "S15",
+      "a": 22.62,
+      "b": 23.24,
+      "component": "S15",
+      "chapter": "c01",
+      "uses": {
+        "footage": [
+          "clip15"
+        ]
+      },
+      "window": [
+        514,
+        533
+      ]
+    },
+    {
+      "id": "S16",
+      "a": 23.24,
+      "b": 23.91,
+      "component": "S16",
+      "chapter": "c01",
+      "uses": {
+        "footage": [
+          "clip16"
+        ]
+      },
+      "window": [
+        537,
+        557
+      ]
+    },
+    {
+      "id": "S2",
+      "a": 23.91,
+      "b": 29.95,
+      "component": "S2",
+      "chapter": "c01",
+      "uses": {},
+      "hold": 2.829
+    },
+    {
+      "id": "S3",
+      "a": 29.95,
+      "b": 33.42,
+      "component": "S3",
+      "chapter": "c01",
+      "uses": {},
+      "hold": 0.964
+    },
+    {
+      "id": "S6",
+      "a": 33.42,
+      "b": 36.3,
+      "component": "S6",
+      "chapter": "c01",
+      "uses": {},
+      "hold": 0.8
+    },
+    {
+      "id": "S21",
+      "a": 36.3,
+      "b": 39.78,
+      "component": "S21",
+      "chapter": "c01",
+      "uses": {},
+      "hold": 0.065
+    },
+    {
+      "id": "S17",
+      "a": 39.78,
+      "b": 41.25,
+      "component": "S17",
+      "chapter": "c01",
+      "uses": {},
+      "hold": 0.027
+    },
+    {
+      "id": "S20",
+      "a": 41.25,
+      "b": 43.59,
+      "component": "S20",
+      "chapter": "c01",
+      "uses": {},
+      "hold": 0.044
+    },
+    {
+      "id": "S22",
+      "a": 43.59,
+      "b": 48.62,
+      "component": "S22",
+      "chapter": "c02",
+      "uses": {
+        "still": [
+          "valley",
+          "cairn"
+        ]
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "id": "c01",
+      "title": "Hook",
+      "role": "hook",
+      "scenes": [
+        "S38",
+        "S41",
+        "S42",
+        "S1",
+        "S19",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S2",
+        "S3",
+        "S6",
+        "S21",
+        "S17",
+        "S20"
+      ],
+      "target_words": [
+        93,
+        125
+      ],
+      "removable": false,
+      "repeatable": false
+    },
+    {
+      "id": "c02",
+      "title": "Title",
+      "role": "title",
+      "scenes": [
+        "S22"
+      ],
+      "target_words": [
+        11,
+        14
+      ],
+      "removable": true,
+      "repeatable": false
+    }
+  ],
+  "theme": {
+    "palette": {
+      "night": "#0f2a2c",
+      "glacier": "#a9d6e5",
+      "accent": "#f2a541",
+      "paper": "#eef2f1"
+    },
+    "fonts": "src/theme.ts fontFaces"
+  },
+  "sfx": [],
+  "audio": {
+    "narration": "sample/audio/narration.mp3",
+    "bgm": "sample/audio/bgm.mp3",
+    "sfx": null
+  },
+  "narration": {
+    "words": "data/buyer/words.json",
+    "sentences": [
+      {
+        "id": "n01",
+        "text": "Most people use AI the way they would use a very smart reference book.",
+        "s": 0,
+        "e": 4.41
+      },
+      {
+        "id": "n02",
+        "text": "You ask it a question and you get a good answer back in a few seconds.",
+        "s": 5.17,
+        "e": 9.02
+      },
+      {
+        "id": "n03",
+        "text": "An AI agent is built on a different idea, and that idea is worth understanding properly.",
+        "s": 10,
+        "e": 16.43
+      },
+      {
+        "id": "n04",
+        "text": "You do not ask an agent for an answer, you hand it a whole job to finish.",
+        "s": 17.77,
+        "e": 23.07
+      },
+      {
+        "id": "n05",
+        "text": "It works out the steps by itself and keeps going until the job is actually done.",
+        "s": 23.91,
+        "e": 29.03
+      },
+      {
+        "id": "n06",
+        "text": "That sounds like magic until you see how simple the machinery underneath really is.",
+        "s": 29.95,
+        "e": 35.49
+      },
+      {
+        "id": "n07",
+        "text": "By the end you will know which jobs to hand over and which ones to keep for yourself.",
+        "s": 36.3,
+        "e": 41.51
+      },
+      {
+        "id": "n08",
+        "text": "This is how AI agents actually work.",
+        "s": 43.59,
+        "e": 46.6
+      }
+    ]
+  },
+  "anchors": [
+    {
+      "id": "overlays.001",
+      "word": "AGENTS DON'T ANSWER. THEY GO.",
+      "sentence": "n02",
+      "t": 5.17,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.002",
+      "word": "A WHOLE JOB, NOT A QUESTION",
+      "sentence": "n06",
+      "t": 29.95,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.003",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.004",
+      "word": "",
+      "sentence": "n06",
+      "t": 33.42,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.005",
+      "word": "BOOK IT",
+      "sentence": "n04",
+      "t": 18.63,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.006",
+      "word": "COMPARE IT",
+      "sentence": "n04",
+      "t": 19.49,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.007",
+      "word": "DRAFT IT",
+      "sentence": "n04",
+      "t": 20.03,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.008",
+      "word": "SEND IT",
+      "sentence": "n04",
+      "t": 20.79,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.009",
+      "word": "SIMPLE MACHINERY",
+      "sentence": "n07",
+      "t": 39.78,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.010",
+      "word": "A DIFFERENT IDEA ALTOGETHER",
+      "sentence": "n03",
+      "t": 12.43,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.011",
+      "word": "WHICH JOBS TO HAND OVER",
+      "sentence": "n07",
+      "t": 41.25,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.012",
+      "word": "Ask",
+      "sentence": "n07",
+      "t": 36.3,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.013",
+      "word": "Answer",
+      "sentence": "n07",
+      "t": 36.3,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.014",
+      "word": "Act",
+      "sentence": "n07",
+      "t": 36.3,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.015",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.016",
+      "word": "",
+      "sentence": "n10",
+      "t": 55.02,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.017",
+      "word": "",
+      "sentence": "n11",
+      "t": 63.31,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.018",
+      "word": "",
+      "sentence": "n12",
+      "t": 69.15,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.019",
+      "word": "",
+      "sentence": "n12",
+      "t": 66.68,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.020",
+      "word": "",
+      "sentence": "n12",
+      "t": 66.68,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.021",
+      "word": "",
+      "sentence": "n12",
+      "t": 66.68,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.022",
+      "word": "",
+      "sentence": "n12",
+      "t": 66.68,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.023",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.024",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.025",
+      "word": "",
+      "sentence": "n16",
+      "t": 89.37,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.026",
+      "word": "",
+      "sentence": "n16",
+      "t": 89.37,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.027",
+      "word": "",
+      "sentence": "n20",
+      "t": 113.84,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.028",
+      "word": "",
+      "sentence": "n20",
+      "t": 113.84,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.029",
+      "word": "",
+      "sentence": "n20",
+      "t": 113.84,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.030",
+      "word": "",
+      "sentence": "n20",
+      "t": 117.28,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.031",
+      "word": "",
+      "sentence": "n20",
+      "t": 117.28,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.032",
+      "word": "",
+      "sentence": "n23",
+      "t": 132.04,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.033",
+      "word": "",
+      "sentence": "n24",
+      "t": 138.72,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.034",
+      "word": "",
+      "sentence": "n24",
+      "t": 138.72,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.035",
+      "word": "",
+      "sentence": "n25",
+      "t": 144.37,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.036",
+      "word": "",
+      "sentence": "n25",
+      "t": 144.37,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.037",
+      "word": "",
+      "sentence": "n25",
+      "t": 144.37,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.038",
+      "word": "",
+      "sentence": "n26",
+      "t": 149.63,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.039",
+      "word": "",
+      "sentence": "n27",
+      "t": 155.8,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.040",
+      "word": "",
+      "sentence": "n27",
+      "t": 155.8,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.041",
+      "word": "",
+      "sentence": "n31",
+      "t": 181.89,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.042",
+      "word": "",
+      "sentence": "n31",
+      "t": 181.89,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.043",
+      "word": "",
+      "sentence": "n32",
+      "t": 187.62,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.044",
+      "word": "",
+      "sentence": "n32",
+      "t": 187.62,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.045",
+      "word": "",
+      "sentence": "n32",
+      "t": 189.11,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.046",
+      "word": "",
+      "sentence": "n32",
+      "t": 187.62,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.047",
+      "word": "",
+      "sentence": "n35",
+      "t": 204.97,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.048",
+      "word": "",
+      "sentence": "n36",
+      "t": 211.07,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.049",
+      "word": "",
+      "sentence": "n36",
+      "t": 211.07,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.050",
+      "word": "",
+      "sentence": "n42",
+      "t": 250.72,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.051",
+      "word": "",
+      "sentence": "n42",
+      "t": 250.15,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.052",
+      "word": "",
+      "sentence": "n43",
+      "t": 254.06,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.053",
+      "word": "",
+      "sentence": "n43",
+      "t": 254.87,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.054",
+      "word": "",
+      "sentence": "n43",
+      "t": 255.75,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.055",
+      "word": "",
+      "sentence": "n43",
+      "t": 257.15,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.056",
+      "word": "",
+      "sentence": "n43",
+      "t": 258.95,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.057",
+      "word": "",
+      "sentence": "n44",
+      "t": 262.29,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.058",
+      "word": "",
+      "sentence": "n44",
+      "t": 264.84,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.059",
+      "word": "",
+      "sentence": "n45",
+      "t": 266.8,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.060",
+      "word": "",
+      "sentence": "n45",
+      "t": 266.8,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.061",
+      "word": "",
+      "sentence": "n45",
+      "t": 266.8,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.062",
+      "word": "",
+      "sentence": "n45",
+      "t": 266.8,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.063",
+      "word": "",
+      "sentence": "n52",
+      "t": 310.04,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.064",
+      "word": "",
+      "sentence": "n55",
+      "t": 328.77,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.065",
+      "word": "",
+      "sentence": "n55",
+      "t": 331.99,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.066",
+      "word": "",
+      "sentence": "n55",
+      "t": 331.99,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.067",
+      "word": "",
+      "sentence": "n55",
+      "t": 333.71,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.068",
+      "word": "",
+      "sentence": "n52",
+      "t": 312.39,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.069",
+      "word": "",
+      "sentence": "n53",
+      "t": 316.18,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.070",
+      "word": "",
+      "sentence": "n53",
+      "t": 320.63,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.071",
+      "word": "",
+      "sentence": "n54",
+      "t": 322.82,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.072",
+      "word": "",
+      "sentence": "n54",
+      "t": 322.82,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.073",
+      "word": "",
+      "sentence": "n58",
+      "t": 348.27,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.074",
+      "word": "",
+      "sentence": "n58",
+      "t": 348.27,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.075",
+      "word": "",
+      "sentence": "n58",
+      "t": 348.27,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.076",
+      "word": "",
+      "sentence": "n63",
+      "t": 379.27,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.077",
+      "word": "",
+      "sentence": "n62",
+      "t": 373.58,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.078",
+      "word": "",
+      "sentence": "n62",
+      "t": 376.11,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.079",
+      "word": "",
+      "sentence": "n62",
+      "t": 376.11,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.080",
+      "word": "",
+      "sentence": "n64",
+      "t": 385.97,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.081",
+      "word": "",
+      "sentence": "n67",
+      "t": 404.98,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.082",
+      "word": "",
+      "sentence": "n68",
+      "t": 411.7,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.083",
+      "word": "",
+      "sentence": "n72",
+      "t": 441.15,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.084",
+      "word": "",
+      "sentence": "n69",
+      "t": 418.67,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.085",
+      "word": "",
+      "sentence": "n69",
+      "t": 418.67,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.086",
+      "word": "",
+      "sentence": "n69",
+      "t": 418.67,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.087",
+      "word": "",
+      "sentence": "n84",
+      "t": 511.27,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.088",
+      "word": "",
+      "sentence": "n85",
+      "t": 517.37,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.089",
+      "word": "",
+      "sentence": "n15",
+      "t": 83.61,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.090",
+      "word": "",
+      "sentence": "n15",
+      "t": 85.96,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.091",
+      "word": "",
+      "sentence": "n61",
+      "t": 366.5,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.092",
+      "word": "",
+      "sentence": "n61",
+      "t": 366.5,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.093",
+      "word": "",
+      "sentence": "n61",
+      "t": 366.5,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.094",
+      "word": "",
+      "sentence": "n61",
+      "t": 366.5,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.095",
+      "word": "One goal",
+      "sentence": "n01",
+      "t": 0.3,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "overlays.096",
+      "word": "many steps",
+      "sentence": "n01",
+      "t": 1.66,
+      "where": "overlays.tsx"
+    },
+    {
+      "id": "table.001",
+      "word": "",
+      "sentence": "n38",
+      "t": 224.44,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.002",
+      "word": "",
+      "sentence": "n38",
+      "t": 224.44,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.003",
+      "word": "",
+      "sentence": "n38",
+      "t": 224.44,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.004",
+      "word": "",
+      "sentence": "n38",
+      "t": 224.44,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.005",
+      "word": "",
+      "sentence": "n38",
+      "t": 224.44,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.006",
+      "word": "Checked the shared folder for this week's notes",
+      "sentence": "n06",
+      "t": 33.42,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.007",
+      "word": "Compared three supplier quotes side by side",
+      "sentence": "n06",
+      "t": 33.42,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.008",
+      "word": "Drafted a reply and paused for your OK",
+      "sentence": "n06",
+      "t": 33.42,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.009",
+      "word": "",
+      "sentence": "n29",
+      "t": 169.59,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.010",
+      "word": "",
+      "sentence": "n29",
+      "t": 169.59,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.011",
+      "word": "",
+      "sentence": "n29",
+      "t": 169.59,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.012",
+      "word": "",
+      "sentence": "n29",
+      "t": 169.59,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.013",
+      "word": "",
+      "sentence": "n29",
+      "t": 169.59,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.014",
+      "word": "",
+      "sentence": "n29",
+      "t": 169.59,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.015",
+      "word": "",
+      "sentence": "n29",
+      "t": 169.59,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.016",
+      "word": "",
+      "sentence": "n29",
+      "t": 169.59,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.017",
+      "word": "",
+      "sentence": "n29",
+      "t": 169.59,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.018",
+      "word": "",
+      "sentence": "n28",
+      "t": 163.41,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.019",
+      "word": "",
+      "sentence": "n28",
+      "t": 163.41,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.020",
+      "word": "",
+      "sentence": "n28",
+      "t": 163.41,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.021",
+      "word": "",
+      "sentence": "n28",
+      "t": 163.41,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.022",
+      "word": "",
+      "sentence": "n60",
+      "t": 360.59,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.023",
+      "word": "",
+      "sentence": "n60",
+      "t": 360.59,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.024",
+      "word": "",
+      "sentence": "n60",
+      "t": 362.34,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.025",
+      "word": "",
+      "sentence": "n60",
+      "t": 362.34,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.026",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.027",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.028",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.029",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "table.tsx"
+    },
+    {
+      "id": "backdrops.001",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.002",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.003",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.004",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.005",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.006",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.007",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.008",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.009",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.010",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.011",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.012",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.013",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.014",
+      "word": "",
+      "sentence": "n13",
+      "t": 72.5,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.015",
+      "word": "",
+      "sentence": "n50",
+      "t": 298.06,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.016",
+      "word": "",
+      "sentence": "n77",
+      "t": 472.85,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.017",
+      "word": "",
+      "sentence": "n46",
+      "t": 272.38,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.018",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.019",
+      "word": "",
+      "sentence": "n19",
+      "t": 108.09,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.020",
+      "word": "",
+      "sentence": "n19",
+      "t": 108.09,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.021",
+      "word": "",
+      "sentence": "n19",
+      "t": 109.2,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.022",
+      "word": "",
+      "sentence": "n19",
+      "t": 108.09,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.023",
+      "word": "",
+      "sentence": "n19",
+      "t": 108.09,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.024",
+      "word": "",
+      "sentence": "n19",
+      "t": 108.09,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.025",
+      "word": "",
+      "sentence": "n19",
+      "t": 108.09,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.026",
+      "word": "",
+      "sentence": "n19",
+      "t": 108.09,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.027",
+      "word": "",
+      "sentence": "n19",
+      "t": 108.09,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.028",
+      "word": "",
+      "sentence": "n19",
+      "t": 108.09,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.029",
+      "word": "IT KEEPS GOING\nUNTIL THE JOB IS DONE",
+      "sentence": "n05",
+      "t": 23.91,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.030",
+      "word": "",
+      "sentence": "n37",
+      "t": 217.81,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.031",
+      "word": "",
+      "sentence": "n37",
+      "t": 220.28,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.032",
+      "word": "",
+      "sentence": "n47",
+      "t": 281.28,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.033",
+      "word": "",
+      "sentence": "n28",
+      "t": 163.41,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.034",
+      "word": "HOW AI AGENTS ACTUALLY WORK",
+      "sentence": "n08",
+      "t": 44.34,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.035",
+      "word": "",
+      "sentence": "n66",
+      "t": 398.86,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.036",
+      "word": "",
+      "sentence": "n66",
+      "t": 398.86,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.037",
+      "word": "",
+      "sentence": "n66",
+      "t": 398.86,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.038",
+      "word": "",
+      "sentence": "n66",
+      "t": 398.86,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.039",
+      "word": "",
+      "sentence": "n75",
+      "t": 457.38,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.040",
+      "word": "",
+      "sentence": "n75",
+      "t": 460.86,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "backdrops.041",
+      "word": "",
+      "sentence": "n73",
+      "t": 445.31,
+      "where": "Backdrops.tsx"
+    },
+    {
+      "id": "cards.001",
+      "word": "",
+      "sentence": "n48",
+      "t": 285.59,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.002",
+      "word": "",
+      "sentence": "n48",
+      "t": 288.19,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.003",
+      "word": "",
+      "sentence": "n48",
+      "t": 288.19,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.004",
+      "word": "",
+      "sentence": "n48",
+      "t": 288.19,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.005",
+      "word": "",
+      "sentence": "n48",
+      "t": 289.4,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.006",
+      "word": "",
+      "sentence": "n48",
+      "t": 289.4,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.007",
+      "word": "",
+      "sentence": "n48",
+      "t": 289.4,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.008",
+      "word": "",
+      "sentence": "n48",
+      "t": 290.6,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.009",
+      "word": "",
+      "sentence": "n48",
+      "t": 290.6,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.010",
+      "word": "",
+      "sentence": "n48",
+      "t": 290.6,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.011",
+      "word": "",
+      "sentence": "n48",
+      "t": 285.59,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.012",
+      "word": "",
+      "sentence": "n48",
+      "t": 285.59,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.013",
+      "word": "",
+      "sentence": "n48",
+      "t": 285.59,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.014",
+      "word": "",
+      "sentence": "n48",
+      "t": 285.59,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.015",
+      "word": "",
+      "sentence": "n48",
+      "t": 285.59,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.016",
+      "word": "",
+      "sentence": "n34",
+      "t": 198.78,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.017",
+      "word": "",
+      "sentence": "n34",
+      "t": 198.78,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.018",
+      "word": "",
+      "sentence": "n49",
+      "t": 291.9,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.019",
+      "word": "",
+      "sentence": "n49",
+      "t": 291.9,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.020",
+      "word": "",
+      "sentence": "n49",
+      "t": 291.9,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.021",
+      "word": "",
+      "sentence": "n49",
+      "t": 291.9,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.022",
+      "word": "",
+      "sentence": "n49",
+      "t": 293.53,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.023",
+      "word": "",
+      "sentence": "n49",
+      "t": 293.53,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.024",
+      "word": "",
+      "sentence": "n49",
+      "t": 295.8,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.025",
+      "word": "",
+      "sentence": "n76",
+      "t": 463.04,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.026",
+      "word": "",
+      "sentence": "n76",
+      "t": 463.04,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.027",
+      "word": "",
+      "sentence": "n76",
+      "t": 463.04,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.028",
+      "word": "",
+      "sentence": "n76",
+      "t": 463.04,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.029",
+      "word": "",
+      "sentence": "n76",
+      "t": 463.04,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.030",
+      "word": "",
+      "sentence": "n76",
+      "t": 463.04,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.031",
+      "word": "",
+      "sentence": "n76",
+      "t": 463.04,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.032",
+      "word": "",
+      "sentence": "n76",
+      "t": 463.04,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.033",
+      "word": "",
+      "sentence": "n76",
+      "t": 463.04,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.034",
+      "word": "",
+      "sentence": "n76",
+      "t": 463.04,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.035",
+      "word": "",
+      "sentence": "n76",
+      "t": 463.04,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.036",
+      "word": "",
+      "sentence": "n76",
+      "t": 463.04,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.037",
+      "word": "",
+      "sentence": "n76",
+      "t": 463.04,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.038",
+      "word": "",
+      "sentence": "n77",
+      "t": 469.33,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.039",
+      "word": "",
+      "sentence": "n77",
+      "t": 469.33,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.040",
+      "word": "",
+      "sentence": "n59",
+      "t": 354.04,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.041",
+      "word": "",
+      "sentence": "n59",
+      "t": 354.04,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.042",
+      "word": "",
+      "sentence": "n59",
+      "t": 354.04,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.043",
+      "word": "",
+      "sentence": "n59",
+      "t": 354.04,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.044",
+      "word": "",
+      "sentence": "n09",
+      "t": 48.62,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.045",
+      "word": "",
+      "sentence": "n09",
+      "t": 48.62,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.046",
+      "word": "",
+      "sentence": "n09",
+      "t": 48.62,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.047",
+      "word": "",
+      "sentence": "n09",
+      "t": 48.62,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "cards.048",
+      "word": "",
+      "sentence": "n09",
+      "t": 48.62,
+      "where": "Cards.tsx"
+    },
+    {
+      "id": "diagrams.001",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Diagrams.tsx"
+    },
+    {
+      "id": "diagrams.002",
+      "word": "",
+      "sentence": "n17",
+      "t": 96.24,
+      "where": "Diagrams.tsx"
+    },
+    {
+      "id": "diagrams.003",
+      "word": "",
+      "sentence": "n17",
+      "t": 96.24,
+      "where": "Diagrams.tsx"
+    },
+    {
+      "id": "diagrams.004",
+      "word": "",
+      "sentence": "n17",
+      "t": 96.24,
+      "where": "Diagrams.tsx"
+    },
+    {
+      "id": "diagrams.005",
+      "word": "",
+      "sentence": "n17",
+      "t": 96.24,
+      "where": "Diagrams.tsx"
+    },
+    {
+      "id": "film.001",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Film.tsx"
+    },
+    {
+      "id": "film.002",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Film.tsx"
+    },
+    {
+      "id": "film.003",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Film.tsx"
+    },
+    {
+      "id": "film.004",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Film.tsx"
+    },
+    {
+      "id": "table.030",
+      "word": "",
+      "sentence": "n38",
+      "t": 225.37,
+      "where": "table.tsx"
+    },
+    {
+      "id": "table.031",
+      "word": "",
+      "sentence": "n29",
+      "t": 170.15,
+      "where": "table.tsx"
+    },
+    {
+      "id": "chapter.c01",
+      "word": "",
+      "sentence": "n01",
+      "t": 0,
+      "where": "Film.tsx"
+    },
+    {
+      "id": "chapter.c02",
+      "word": "",
+      "sentence": "n08",
+      "t": 43.59,
+      "where": "Film.tsx"
+    },
+    {
+      "id": "chapter.c03",
+      "word": "",
+      "sentence": "n09",
+      "t": 48.62,
+      "where": "Film.tsx"
+    },
+    {
+      "id": "chapter.c04",
+      "word": "",
+      "sentence": "n17",
+      "t": 96.24,
+      "where": "Film.tsx"
+    },
+    {
+      "id": "chapter.c05",
+      "word": "",
+      "sentence": "n28",
+      "t": 163.41,
+      "where": "Film.tsx"
+    },
+    {
+      "id": "chapter.c06",
+      "word": "",
+      "sentence": "n37",
+      "t": 220.13,
+      "where": "Film.tsx"
+    },
+    {
+      "id": "chapter.c07",
+      "word": "",
+      "sentence": "n47",
+      "t": 281.13,
+      "where": "Film.tsx"
+    },
+    {
+      "id": "chapter.c08",
+      "word": "",
+      "sentence": "n55",
+      "t": 330.24,
+      "where": "Film.tsx"
+    },
+    {
+      "id": "chapter.c09",
+      "word": "",
+      "sentence": "n65",
+      "t": 393.3,
+      "where": "Film.tsx"
+    },
+    {
+      "id": "chapter.c10",
+      "word": "",
+      "sentence": "n73",
+      "t": 445.31,
+      "where": "Film.tsx"
+    },
+    {
+      "id": "chapter.c11",
+      "word": "",
+      "sentence": "n81",
+      "t": 492.71,
+      "where": "Film.tsx"
+    },
+    {
+      "id": "backdrops.042",
+      "word": "",
+      "sentence": "n19",
+      "t": 108.09,
+      "where": "table.tsx"
+    }
+  ],
+  "presenter": {
+    "take": null,
+    "person": null,
+    "plate": null,
+    "pip": null,
+    "full_spans": [],
+    "morphs": [],
+    "pip_spans": [],
+    "person_spans": [],
+    "take_segments": [
+      {
+        "src": [
+          0,
+          12813
+        ],
+        "at": 0
+      }
+    ]
+  },
+  "slots": {
+    "footage": {
+      "clip09": {
+        "file": "sample/footage/clip09.mp4",
+        "note": "A laptop on a desk at night with a blurred map on screen.",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/hook2.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip10": {
+        "file": "sample/footage/clip10.mp4",
+        "note": "A paper calendar with a hand circling a date (title BOOK IT mid-frame).",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/hook3.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip11": {
+        "file": "sample/footage/clip11.mp4",
+        "note": "Two printed quotes side by side under a desk lamp (title COMPARE IT mid-frame).",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/hook4.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip12": {
+        "file": "sample/footage/clip12.mp4",
+        "note": "Hands placing a printed itinerary into a folder on a wooden desk (title DRAFT IT mid-frame).",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/hook1.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip13": {
+        "file": "sample/footage/clip13.mp4",
+        "note": "A hand sealing an envelope (title SEND IT mid-frame).",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/hook5.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip14": {
+        "file": "sample/footage/clip14.mp4",
+        "note": "A phone face down next to a coffee cup at dawn.",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/hook6.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip15": {
+        "file": "sample/footage/clip15.mp4",
+        "note": "A laptop on a desk at dawn, lid half open, trail map printout beside it (second framing of the desk set).",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/hook7.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip16": {
+        "file": "sample/footage/clip16.mp4",
+        "note": "A trail map and a pencil checklist on a table, overhead (second framing of the map set).",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/hook8.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip38": {
+        "file": "sample/footage/clip38.mp4",
+        "note": "A laptop on a desk at night with a blurred trail map on screen (covers S38-S41; slow push).",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/hook2.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip42": {
+        "file": "sample/footage/clip42.mp4",
+        "note": "A trail map spread on a table with a compass (title \"many steps\" sits mid-frame; keep the centre calm).",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/hook8.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip168": {
+        "file": null,
+        "note": "A worn hiking logbook open on a rock with pencil notes, close-up (covers S168-S169).",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/logbook1.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip170": {
+        "file": null,
+        "note": "A hand writing in a small notebook by headlamp light.",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/logbook2.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip173": {
+        "file": null,
+        "note": "Rain on a tent wall.",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/weather1.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip174": {
+        "file": null,
+        "note": "A cairn half hidden in fog.",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/weather2.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip180": {
+        "file": null,
+        "note": "A coiled climbing rope on granite (title Read mid-frame).",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/rope1.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip181": {
+        "file": null,
+        "note": "A carabiner clipped to a bolt, macro.",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/rope2.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip182": {
+        "file": null,
+        "note": "Two hands tying a figure-eight knot (titles Draft, Send mid-frame).",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/rope3.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip183": {
+        "file": null,
+        "note": "A rope running up a steep rock face into mist (title Pay mid-frame).",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/rope4.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip185": {
+        "file": null,
+        "note": "Clouds rolling over a ridge.",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/weather3.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip186": {
+        "file": null,
+        "note": "Fog swallowing a trail.",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/weather4.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip196": {
+        "file": null,
+        "note": "Index cards sorted into two piles on a desk, overhead view.",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/decision1.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip227": {
+        "file": null,
+        "note": "A trail sign leaning in wind, no readable text (covers S227-S229; caption at the bottom).",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/weather5.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip315": {
+        "file": null,
+        "note": "Sunrise over a summit ridge.",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/close1.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip316": {
+        "file": null,
+        "note": "A lone cairn on a saddle at dawn.",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/close2.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip317": {
+        "file": null,
+        "note": "Boots on a rocky trail.",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/close3.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip321": {
+        "file": null,
+        "note": "A mountain hut with warm windows at dusk.",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/close4.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip322": {
+        "file": null,
+        "note": "A valley path seen from above.",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/close9.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip326": {
+        "file": null,
+        "note": "An old style black and white photograph of a mountain camp, generated, no real people (covers S326-S327).",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/close5.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip328": {
+        "file": null,
+        "note": "A black and white glacier panorama.",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/close6.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip330": {
+        "file": null,
+        "note": "First light on a lake below peaks.",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/close7.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      },
+      "clip333": {
+        "file": null,
+        "note": "A slow pan across a sea of clouds below a summit.",
+        "license": "own · Vibe Video Lab sample clip: generated still (stills/close11.png) with a slow ffmpeg zoompan · Codex ImageGen (still), Real-ESRGAN upscale, ffmpeg zoompan · 2026-11-11"
+      }
+    },
+    "still": {
+      "valley": {
+        "file": "sample/still/valley.jpg",
+        "note": "Valley backdrop: a wide alpine valley at blue hour seen from a high trail, mist on the valley floor, distant ridgelines, soft amber light on one slope; no people, no text.",
+        "license": "own · Vibe Video Lab sample still (stills/valley.png, resized) · Codex ImageGen, Real-ESRGAN upscale · 2026-11-11"
+      },
+      "cairn": {
+        "file": "sample/still/cairn.png",
+        "note": "Cairn cut-out: one tall cairn of flat grey stones, straight on, keyed to a transparent PNG (stones fill the height, base at the bottom edge).",
+        "license": "own · Vibe Video Lab sample still (stills/cairn.png, keyed and trimmed) · Codex ImageGen, Real-ESRGAN upscale · 2026-11-11"
+      }
+    }
+  },
+  "captions": {
+    "style": {
+      "font": "Space Grotesk",
+      "weight": 700,
+      "size_ratio": 0.0593,
+      "y_ratio": 0.838,
+      "pill": false,
+      "stroke": false,
+      "keyword_color": null,
+      "position": "bottom",
+      "burn": true
+    },
+    "lines": "data/buyer/captions.json"
+  },
+  "data": {
+    "uiHome": "data/clean/uiHome.json",
+    "uiPages": "data/clean/uiPages.json"
+  }
+}

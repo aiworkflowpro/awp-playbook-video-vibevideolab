@@ -1,0 +1,148 @@
+[
+  {
+    "t": 0,
+    "text": "Most people use AI the way",
+    "pop": true
+  },
+  {
+    "t": 2.02,
+    "text": "they would use a very smart"
+  },
+  {
+    "t": 3.48,
+    "text": "reference book."
+  },
+  {
+    "t": 5.17,
+    "text": "You ask it a question and",
+    "pop": true,
+    "hl": [
+      [
+        "Ask",
+        5.69
+      ]
+    ]
+  },
+  {
+    "t": 7.02,
+    "text": "you get a good answer back",
+    "hl": [
+      [
+        "Answer",
+        7.69
+      ]
+    ]
+  },
+  {
+    "t": 8.23,
+    "text": "in a few seconds."
+  },
+  {
+    "t": 10,
+    "text": "An AI agent is built on a",
+    "pop": true
+  },
+  {
+    "t": 12.54,
+    "text": "different idea,and that idea"
+  },
+  {
+    "t": 14.71,
+    "text": "is worth understanding"
+  },
+  {
+    "t": 15.94,
+    "text": "properly."
+  },
+  {
+    "t": 17.77,
+    "text": "You do not ask an agent for",
+    "pop": true,
+    "hl": [
+      [
+        "Ask",
+        18.48
+      ],
+      [
+        "An agent",
+        18.98
+      ]
+    ]
+  },
+  {
+    "t": 19.88,
+    "text": "an answer,you hand it a",
+    "hl": [
+      [
+        "Answer",
+        20.05
+      ]
+    ]
+  },
+  {
+    "t": 21.67,
+    "text": "whole job to finish."
+  },
+  {
+    "t": 23.91,
+    "text": "It works out the steps by",
+    "pop": true
+  },
+  {
+    "t": 25.68,
+    "text": "itself and keeps going until"
+  },
+  {
+    "t": 27.55,
+    "text": "the job is actually done."
+  },
+  {
+    "t": 29.95,
+    "text": "That sounds like magic until",
+    "pop": true
+  },
+  {
+    "t": 32.2,
+    "text": "you see how simple the"
+  },
+  {
+    "t": 33.62,
+    "text": "machinery underneath really"
+  },
+  {
+    "t": 35.09,
+    "text": "is."
+  },
+  {
+    "t": 36.3,
+    "text": "By the end you will know",
+    "pop": true
+  },
+  {
+    "t": 38.15,
+    "text": "which jobs to hand over and",
+    "hl": [
+      [
+        "WHICH JOBS TO HAND OVER",
+        38.15
+      ]
+    ]
+  },
+  {
+    "t": 40,
+    "text": "which ones to keep for"
+  },
+  {
+    "t": 41.23,
+    "text": "yourself."
+  },
+  {
+    "t": 43.59,
+    "text": "This is how AI agents",
+    "pop": true
+  },
+  {
+    "t": 45.53,
+    "text": "actually work."
+  }
+]

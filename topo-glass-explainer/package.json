@@ -1,0 +1,27 @@
+{
+  "name": "vibevideolab-topo-glass-explainer",
+  "description": "Topo Glass Explainer: a faceless 16:9 explainer engine in Remotion. Frosted glass tiles over a night topographic map, a guide emblem stage, chapter pills and a console, all driven by one film plan.",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "remotion studio src/index.tsx",
+    "typecheck": "tsc --noEmit",
+    "check": "node scripts/buyer/render.mjs --frames 0",
+    "render": "node scripts/buyer/render.mjs --full"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.518",
+    "@remotion/shapes": "4.0.518",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "vibevideolab-core": "file:./vendor/core",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "remotion": "4.0.518",
+    "typescript": "^5.9.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

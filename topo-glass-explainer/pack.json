@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "topo-glass-explainer",
+  "title": "Topo Glass Explainer",
+  "summary": "A faceless 16:9 explainer about how AI agents work: frosted glass tiles over a night topographic map, a guide emblem in place of a presenter, chapter pills, an unbranded console, cairn chapter cards and slow-push b-roll. Eleven chapters you can re-time to your own narration.",
+  "version": "0.1.1",
+  "base_version": "0.1.1",
+  "genre": "ai-business-explainer",
+  "topics": [],
+  "demo": null,
+  "min_cli": "0.3.0",
+  "entry": "src/index.tsx",
+  "composition": "Film",
+  "plan": {
+    "duration": 48.62,
+    "fps": 23.976,
+    "width": 1920,
+    "height": 1080,
+    "scenes": 20,
+    "chapters": 2
+  },
+  "chapters": [
+    {
+      "id": "c01",
+      "title": "Hook",
+      "role": "hook",
+      "a": 0,
+      "b": 43.59
+    },
+    {
+      "id": "c02",
+      "title": "Title",
+      "role": "title",
+      "a": 43.59,
+      "b": 48.62
+    }
+  ],
+  "slots": 38,
+  "samples": 14,
+  "hashes": {
+    "plan.clean.json": "cc46f5600d4e10d2b7c5f46a701f31d1250b62746f98e2b44614238cd0e3f6e8"
+  },
+  "kind": "free-chapter",
+  "full_pack": "topo-glass-explainer"
+}

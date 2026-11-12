@@ -1,0 +1,15 @@
+{
+  "name": "vibevideolab-core",
+  "version": "0.2.1",
+  "private": true,
+  "type": "module",
+  "files": [
+    "src",
+    "public/fonts"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "remotion": "*"
+  }
+}
