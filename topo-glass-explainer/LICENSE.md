@@ -2,12 +2,9 @@
 
 # Vibe Video Lab film pack licence
 
-Pack: **Topo Glass Explainer** (`topo-glass-explainer`), version 0.1.1. Your tier (Creator or Team) is the one on your receipt.
+Pack: **Topo Glass Explainer** (`topo-glass-explainer`), version 0.1.2.
 
-## Tiers
-
-- **Creator**: one person, or a company or organisation of up to 3 people, using the pack from the purchasing account.
-- **Team**: a company or organisation of 4 or more people; one licence per organisation covers everyone who works for it on its projects.
+**Licence**: one licence per purchasing account. Use the pack for your own films and client work, as an individual or a company of any size.
 
 ## What you may do
 
